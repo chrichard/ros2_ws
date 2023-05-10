@@ -19,9 +19,11 @@ find_package(cpp_pubsub REQUIRED)
 
 add_executable(talker src/publisher_member_function.cpp)
 ament_target_dependencies(talker rclcpp std_msgs cpp_pubsub)
+#ament_target_dependencies(talker rclcpp std_msgs )
 
 add_executable(listener src/subscriber_member_function.cpp)
 ament_target_dependencies(listener rclcpp std_msgs cpp_pubsub)
+#ament_target_dependencies(listener rclcpp std_msgs )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
