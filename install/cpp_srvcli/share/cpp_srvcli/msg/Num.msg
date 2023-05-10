@@ -1,1 +1,0 @@
-/home/chen/ros2_ws/src/cpp_srvcli/msg/Num.msg

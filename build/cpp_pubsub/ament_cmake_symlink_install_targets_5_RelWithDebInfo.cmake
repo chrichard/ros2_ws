@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chen/ros2_ws/build/cpp_pubsub/rosidl_generator_py/cpp_pubsub/libcpp_pubsub__python.so" "TARGETS" "cpp_pubsub__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

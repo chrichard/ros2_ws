@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chen/ros2_ws/build/cpp_pubsub/libcpp_pubsub__rosidl_typesupport_fastrtps_c.so" "TARGETS" "cpp_pubsub__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,1 +1,0 @@
-/home/chen/ros2_ws/build/cpp_srvcli/rosidl_cmake/srv/AddThreeInts_Response.msg

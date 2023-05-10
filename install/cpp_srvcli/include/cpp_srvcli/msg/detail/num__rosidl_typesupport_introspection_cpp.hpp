@@ -1,1 +1,0 @@
-/home/chen/ros2_ws/build/cpp_srvcli/rosidl_typesupport_introspection_cpp/cpp_srvcli/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp

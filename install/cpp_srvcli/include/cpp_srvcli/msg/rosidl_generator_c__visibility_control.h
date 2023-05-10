@@ -1,1 +1,0 @@
-/home/chen/ros2_ws/build/cpp_srvcli/rosidl_generator_c/cpp_srvcli/msg/rosidl_generator_c__visibility_control.h
