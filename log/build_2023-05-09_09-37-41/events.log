@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.000895] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000976] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.001011] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.035095] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.083408] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.083719] (-) TimerEvent: {}
+[0.094013] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.097767] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/ros2_ws/build/cpp_pubsub', '--', '-j2', '-l2'], 'cwd': '/home/chen/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_pubsub'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[0.143441] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.156464] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.163776] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/ros2_ws/build/cpp_srvcli', '--', '-j2', '-l2'], 'cwd': '/home/chen/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_srvcli'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[0.184525] (-) TimerEvent: {}
+[0.287090] (-) TimerEvent: {}
+[0.389840] (-) TimerEvent: {}
+[0.490853] (-) TimerEvent: {}
+[0.592893] (-) TimerEvent: {}
+[0.690195] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.693333] (-) TimerEvent: {}
+[0.789380] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.797955] (-) TimerEvent: {}
+[0.853212] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.861924] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[0.900731] (-) TimerEvent: {}
+[0.925467] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.983019] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[1.011132] (-) TimerEvent: {}
+[1.118455] (-) TimerEvent: {}
+[1.213393] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[1.221621] (-) TimerEvent: {}
+[1.251046] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/ros2_ws/build/cpp_srvcli'], 'cwd': '/home/chen/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_srvcli'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[1.306508] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[1.307969] (cpp_srvcli) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.314916] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[1.317186] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[1.318354] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[1.325298] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[1.325529] (-) TimerEvent: {}
+[1.326380] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[1.326991] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[1.327589] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[1.328229] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[1.328796] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[1.334346] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[1.341990] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[1.342813] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[1.343347] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[1.375061] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[1.376452] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[1.382815] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[1.383725] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[1.405137] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[1.434019] (-) TimerEvent: {}
+[1.534968] (-) TimerEvent: {}
+[1.637170] (-) TimerEvent: {}
+[1.738711] (-) TimerEvent: {}
+[1.795741] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[1.839809] (-) TimerEvent: {}
+[1.941816] (-) TimerEvent: {}
+[2.042996] (-) TimerEvent: {}
+[2.144189] (-) TimerEvent: {}
+[2.245173] (-) TimerEvent: {}
+[2.346767] (-) TimerEvent: {}
+[2.447769] (-) TimerEvent: {}
+[2.548207] (-) TimerEvent: {}
+[2.649081] (-) TimerEvent: {}
+[2.749832] (-) TimerEvent: {}
+[2.850721] (-) TimerEvent: {}
+[2.951223] (-) TimerEvent: {}
+[3.052187] (-) TimerEvent: {}
+[3.152960] (-) TimerEvent: {}
+[3.254166] (-) TimerEvent: {}
+[3.355384] (-) TimerEvent: {}
+[3.456827] (-) TimerEvent: {}
+[3.557821] (-) TimerEvent: {}
+[3.659225] (-) TimerEvent: {}
+[3.760427] (-) TimerEvent: {}
+[3.862421] (-) TimerEvent: {}
+[3.964302] (-) TimerEvent: {}
+[4.065883] (-) TimerEvent: {}
+[4.171443] (-) TimerEvent: {}
+[4.272337] (-) TimerEvent: {}
+[4.373507] (-) TimerEvent: {}
+[4.474477] (-) TimerEvent: {}
+[4.576323] (-) TimerEvent: {}
+[4.677636] (-) TimerEvent: {}
+[4.778915] (-) TimerEvent: {}
+[4.879538] (-) TimerEvent: {}
+[4.980375] (-) TimerEvent: {}
+[5.083734] (-) TimerEvent: {}
+[5.184463] (-) TimerEvent: {}
+[5.285106] (-) TimerEvent: {}
+[5.385732] (-) TimerEvent: {}
+[5.486347] (-) TimerEvent: {}
+[5.587065] (-) TimerEvent: {}
+[5.687633] (-) TimerEvent: {}
+[5.788420] (-) TimerEvent: {}
+[5.888929] (-) TimerEvent: {}
+[5.989494] (-) TimerEvent: {}
+[6.090500] (-) TimerEvent: {}
+[6.191633] (-) TimerEvent: {}
+[6.293022] (-) TimerEvent: {}
+[6.394000] (-) TimerEvent: {}
+[6.495328] (-) TimerEvent: {}
+[6.596672] (-) TimerEvent: {}
+[6.698962] (-) TimerEvent: {}
+[6.799795] (-) TimerEvent: {}
+[6.900443] (-) TimerEvent: {}
+[7.001604] (-) TimerEvent: {}
+[7.103502] (-) TimerEvent: {}
+[7.204888] (-) TimerEvent: {}
+[7.305970] (-) TimerEvent: {}
+[7.407328] (-) TimerEvent: {}
+[7.508261] (-) TimerEvent: {}
+[7.608989] (-) TimerEvent: {}
+[7.709774] (-) TimerEvent: {}
+[7.810667] (-) TimerEvent: {}
+[7.911580] (-) TimerEvent: {}
+[8.012518] (-) TimerEvent: {}
+[8.112912] (-) TimerEvent: {}
+[8.213389] (-) TimerEvent: {}
+[8.314105] (-) TimerEvent: {}
+[8.414971] (-) TimerEvent: {}
+[8.515873] (-) TimerEvent: {}
+[8.616591] (-) TimerEvent: {}
+[8.717812] (-) TimerEvent: {}
+[8.818754] (-) TimerEvent: {}
+[8.919614] (-) TimerEvent: {}
+[9.020491] (-) TimerEvent: {}
+[9.122535] (-) TimerEvent: {}
+[9.223557] (-) TimerEvent: {}
+[9.324449] (-) TimerEvent: {}
+[9.425478] (-) TimerEvent: {}
+[9.527073] (-) TimerEvent: {}
+[9.630302] (-) TimerEvent: {}
+[9.732764] (-) TimerEvent: {}
+[9.837213] (-) TimerEvent: {}
+[9.938129] (-) TimerEvent: {}
+[10.038719] (-) TimerEvent: {}
+[10.139411] (-) TimerEvent: {}
+[10.240121] (-) TimerEvent: {}
+[10.340570] (-) TimerEvent: {}
+[10.441411] (-) TimerEvent: {}
+[10.542304] (-) TimerEvent: {}
+[10.643711] (-) TimerEvent: {}
+[10.746676] (-) TimerEvent: {}
+[10.847312] (-) TimerEvent: {}
+[10.948902] (-) TimerEvent: {}
+[11.050822] (-) TimerEvent: {}
+[11.152565] (-) TimerEvent: {}
+[11.255529] (-) TimerEvent: {}
+[11.356637] (-) TimerEvent: {}
+[11.457346] (-) TimerEvent: {}
+[11.557848] (-) TimerEvent: {}
+[11.658434] (-) TimerEvent: {}
+[11.759484] (-) TimerEvent: {}
+[11.860409] (-) TimerEvent: {}
+[11.960978] (-) TimerEvent: {}
+[12.061885] (-) TimerEvent: {}
+[12.167825] (-) TimerEvent: {}
+[12.269722] (-) TimerEvent: {}
+[12.370625] (-) TimerEvent: {}
+[12.474083] (-) TimerEvent: {}
+[12.586546] (-) TimerEvent: {}
+[12.687937] (-) TimerEvent: {}
+[12.789562] (-) TimerEvent: {}
+[12.891249] (-) TimerEvent: {}
+[12.991818] (-) TimerEvent: {}
+[13.092630] (-) TimerEvent: {}
+[13.196485] (-) TimerEvent: {}
+[13.297114] (-) TimerEvent: {}
+[13.398673] (-) TimerEvent: {}
+[13.500134] (-) TimerEvent: {}
+[13.601110] (-) TimerEvent: {}
+[13.701731] (-) TimerEvent: {}
+[13.802499] (-) TimerEvent: {}
+[13.904261] (-) TimerEvent: {}
+[14.005708] (-) TimerEvent: {}
+[14.106380] (-) TimerEvent: {}
+[14.207537] (-) TimerEvent: {}
+[14.308022] (-) TimerEvent: {}
+[14.409229] (-) TimerEvent: {}
+[14.510367] (-) TimerEvent: {}
+[14.611689] (-) TimerEvent: {}
+[14.712716] (-) TimerEvent: {}
+[14.813705] (-) TimerEvent: {}
+[14.914587] (-) TimerEvent: {}
+[15.015492] (-) TimerEvent: {}
+[15.118065] (-) TimerEvent: {}
+[15.219786] (-) TimerEvent: {}
+[15.320811] (-) TimerEvent: {}
+[15.421775] (-) TimerEvent: {}
+[15.524312] (-) TimerEvent: {}
+[15.625824] (-) TimerEvent: {}
+[15.727203] (-) TimerEvent: {}
+[15.827819] (-) TimerEvent: {}
+[15.928394] (-) TimerEvent: {}
+[16.033794] (-) TimerEvent: {}
+[16.134630] (-) TimerEvent: {}
+[16.235461] (-) TimerEvent: {}
+[16.337312] (-) TimerEvent: {}
+[16.438341] (-) TimerEvent: {}
+[16.539510] (-) TimerEvent: {}
+[16.640165] (-) TimerEvent: {}
+[16.740985] (-) TimerEvent: {}
+[16.841527] (-) TimerEvent: {}
+[16.942475] (-) TimerEvent: {}
+[17.042965] (-) TimerEvent: {}
+[17.143513] (-) TimerEvent: {}
+[17.244160] (-) TimerEvent: {}
+[17.344785] (-) TimerEvent: {}
+[17.445352] (-) TimerEvent: {}
+[17.546262] (-) TimerEvent: {}
+[17.647010] (-) TimerEvent: {}
+[17.747732] (-) TimerEvent: {}
+[17.848886] (-) TimerEvent: {}
+[17.950619] (-) TimerEvent: {}
+[18.053603] (-) TimerEvent: {}
+[18.154764] (-) TimerEvent: {}
+[18.256743] (-) TimerEvent: {}
+[18.360255] (-) TimerEvent: {}
+[18.462673] (-) TimerEvent: {}
+[18.563836] (-) TimerEvent: {}
+[18.664788] (-) TimerEvent: {}
+[18.766243] (-) TimerEvent: {}
+[18.867291] (-) TimerEvent: {}
+[18.968513] (-) TimerEvent: {}
+[19.069405] (-) TimerEvent: {}
+[19.170805] (-) TimerEvent: {}
+[19.273169] (-) TimerEvent: {}
+[19.374390] (-) TimerEvent: {}
+[19.474785] (-) TimerEvent: {}
+[19.575543] (-) TimerEvent: {}
+[19.678530] (-) TimerEvent: {}
+[19.779959] (-) TimerEvent: {}
+[19.881391] (-) TimerEvent: {}
+[19.982816] (-) TimerEvent: {}
+[20.088262] (-) TimerEvent: {}
+[20.189540] (-) TimerEvent: {}
+[20.291225] (-) TimerEvent: {}
+[20.392273] (-) TimerEvent: {}
+[20.493407] (-) TimerEvent: {}
+[20.595496] (-) TimerEvent: {}
+[20.696486] (-) TimerEvent: {}
+[20.798135] (-) TimerEvent: {}
+[20.899245] (-) TimerEvent: {}
+[21.000590] (-) TimerEvent: {}
+[21.101965] (-) TimerEvent: {}
+[21.202999] (-) TimerEvent: {}
+[21.304734] (-) TimerEvent: {}
+[21.405683] (-) TimerEvent: {}
+[21.506865] (-) TimerEvent: {}
+[21.608539] (-) TimerEvent: {}
+[21.709197] (-) TimerEvent: {}
+[21.809989] (-) TimerEvent: {}
+[21.910666] (-) TimerEvent: {}
+[22.013327] (-) TimerEvent: {}
+[22.114369] (-) TimerEvent: {}
+[22.215318] (-) TimerEvent: {}
+[22.316024] (-) TimerEvent: {}
+[22.417313] (-) TimerEvent: {}
+[22.518740] (-) TimerEvent: {}
+[22.619654] (-) TimerEvent: {}
+[22.721395] (-) TimerEvent: {}
+[22.822208] (-) TimerEvent: {}
+[22.908423] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[22.922428] (-) TimerEvent: {}
+[23.022975] (-) TimerEvent: {}
+[23.125101] (-) TimerEvent: {}
+[23.231759] (-) TimerEvent: {}
+[23.335278] (-) TimerEvent: {}
+[23.437924] (-) TimerEvent: {}
+[23.509805] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[23.538787] (-) TimerEvent: {}
+[23.571525] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[23.639094] (-) TimerEvent: {}
+[23.694869] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[23.695486] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/chen/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_pubsub'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[23.739351] (-) TimerEvent: {}
+[23.767049] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[23.768195] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.770221] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[23.770940] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[23.771597] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[23.772299] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[23.773008] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[23.781010] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[23.782136] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[23.782551] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[23.782976] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[23.783205] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[23.783777] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[23.784002] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[23.789982] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[23.814824] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[23.815203] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[23.815570] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[23.816017] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[23.830661] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[23.843431] (-) TimerEvent: {}
+[23.947663] (-) TimerEvent: {}
+[24.017649] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[24.019934] (-) EventReactorShutdown: {}

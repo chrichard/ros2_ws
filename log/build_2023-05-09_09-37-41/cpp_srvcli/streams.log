@@ -1,0 +1,25 @@
+[0.133s] Invoking command in '/home/chen/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[0.754s] [ 50%] Built target client
+[0.827s] [100%] Built target server
+[0.948s] Invoked command in '/home/chen/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[1.221s] Invoking command in '/home/chen/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chen/ros2_ws/build/cpp_srvcli
+[1.272s] -- Install configuration: "RelWithDebInfo"
+[1.273s] -- Execute custom install script
+[1.280s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.282s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.283s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.290s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.291s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.292s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.292s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.293s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.294s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.300s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.307s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.308s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.308s] -- Symlinking: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.340s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.342s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.348s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.349s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.370s] Invoked command in '/home/chen/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chen/ros2_ws/build/cpp_srvcli

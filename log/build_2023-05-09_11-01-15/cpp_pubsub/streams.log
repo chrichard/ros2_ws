@@ -1,0 +1,20 @@
+[0.079s] Invoking command in '/home/chen/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.481s] [  1%] Built target cpp_pubsub__cpp
+[0.535s] [ 11%] Built target cpp_pubsub__rosidl_generator_c
+[0.647s] [35m[1mScanning dependencies of target talker[0m
+[0.860s] [ 15%] Built target listener
+[0.938s] [ 17%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.051s] [ 27%] Built target cpp_pubsub__rosidl_typesupport_cpp
+[1.303s] [ 37%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp
+[1.617s] [ 47%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp
+[1.835s] [ 56%] Built target cpp_pubsub__rosidl_typesupport_introspection_c
+[1.934s] [01m[K/home/chen/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kcpp_pubsub/msg/num.hpp: 没有那个文件或目录
+[1.934s]    20 | #include [01;31m[K"cpp_pubsub/msg/num.hpp"[m[K
+[1.934s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.934s] compilation terminated.
+[1.939s] make[2]: *** [CMakeFiles/talker.dir/build.make:63：CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] 错误 1
+[1.939s] make[1]: *** [CMakeFiles/Makefile2:305：CMakeFiles/talker.dir/all] 错误 2
+[1.939s] make[1]: *** 正在等待未完成的任务....
+[2.011s] make: *** [Makefile:141：all] 错误 2
+[2.011s] [ 66%] Built target cpp_pubsub__rosidl_typesupport_c
+[2.028s] Invoked command in '/home/chen/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_pubsub -- -j2 -l2

@@ -1,0 +1,155 @@
+[0.069s] Invoking command in '/home/chen/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/chen/ros2_ws/src/cpp_pubsub -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ros2_ws/install/cpp_pubsub
+[0.182s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.251s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.329s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.512s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.375s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.081s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.255s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.338s] -- Found cpp_pubsub: 0.0.0 (/home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake)
+[3.799s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.688s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.279s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.281s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.355s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.355s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.356s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.570s] -- Configuring done
+[6.779s] -- Generating done
+[6.796s] -- Build files have been written to: /home/chen/ros2_ws/build/cpp_pubsub
+[6.831s] Invoked command in '/home/chen/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/chen/ros2_ws/src/cpp_pubsub -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ros2_ws/install/cpp_pubsub
+[6.833s] Invoking command in '/home/chen/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[7.119s] [  9%] Built target cpp_pubsub__rosidl_generator_c
+[7.156s] [ 11%] Built target cpp_pubsub__cpp
+[7.323s] [ 15%] Built target talker
+[7.338s] [ 19%] Built target listener
+[7.485s] [ 29%] Built target cpp_pubsub__rosidl_typesupport_cpp
+[7.556s] [ 39%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp
+[7.628s] [ 49%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp
+[7.740s] [ 58%] Built target cpp_pubsub__rosidl_typesupport_introspection_c
+[7.767s] [ 68%] Built target cpp_pubsub__rosidl_typesupport_c
+[7.856s] [ 78%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c
+[7.968s] [ 78%] Built target cpp_pubsub
+[8.051s] [ 80%] Built target cpp_pubsub__py
+[8.182s] [ 88%] Built target cpp_pubsub__python
+[8.264s] [ 92%] Built target cpp_pubsub__rosidl_typesupport_introspection_c__pyext
+[8.362s] [ 96%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[8.476s] [100%] Built target cpp_pubsub__rosidl_typesupport_c__pyext
+[8.521s] Invoked command in '/home/chen/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[8.831s] Invoking command in '/home/chen/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chen/ros2_ws/build/cpp_pubsub
+[8.856s] -- Install configuration: "RelWithDebInfo"
+[8.857s] -- Execute custom install script
+[8.858s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/rosidl_interfaces/cpp_pubsub
+[8.859s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__functions.h
+[8.860s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__struct.h
+[8.860s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__type_support.h
+[8.860s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__functions.h
+[8.861s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__struct.h
+[8.861s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__type_support.h
+[8.861s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/num.h
+[8.862s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_generator_c__visibility_control.h
+[8.862s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/sphere.h
+[8.863s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/add_three_ints.h
+[8.864s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__functions.h
+[8.864s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__struct.h
+[8.868s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__type_support.h
+[8.869s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+[8.869s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+[8.874s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[8.874s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[8.875s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.875s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[8.879s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_c.so
+[8.879s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[8.880s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[8.883s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.883s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.884s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_cpp.so
+[8.885s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_introspection_c.h
+[8.885s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[8.885s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.885s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[8.886s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__builder.hpp
+[8.887s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__struct.hpp
+[8.887s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__traits.hpp
+[8.887s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__builder.hpp
+[8.887s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__struct.hpp
+[8.888s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__traits.hpp
+[8.888s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/num.hpp
+[8.888s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/sphere.hpp
+[8.889s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/add_three_ints.hpp
+[8.891s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__builder.hpp
+[8.891s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__struct.hpp
+[8.891s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__traits.hpp
+[8.892s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[8.892s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[8.893s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[8.893s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.sh
+[8.893s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.dsv
+[8.893s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/__init__.py
+[8.894s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/msg/__init__.py
+[8.894s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/msg/_num.py
+[8.894s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/msg/_sphere.py
+[8.895s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/srv/__init__.py
+[8.895s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/srv/_add_three_ints.py
+[8.900s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.908s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.912s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.912s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__python.so
+[8.912s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Num.idl
+[8.919s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Sphere.idl
+[8.919s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts.idl
+[8.919s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Num.msg
+[8.919s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Sphere.msg
+[8.919s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts.srv
+[8.919s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts_Request.msg
+[8.920s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts_Response.msg
+[8.920s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[8.920s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[8.920s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[8.920s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[8.920s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[8.920s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[8.921s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[8.921s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[8.921s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[8.921s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[8.922s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[8.922s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[8.922s] -- Symlinking: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[8.953s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[8.953s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake-extras.cmake
+[8.953s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.954s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[8.954s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+[8.960s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.961s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.961s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.961s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[8.961s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[8.963s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[8.967s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_c.so
+[8.968s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_c.so
+[8.968s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_c.so
+[8.969s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_cpp.so
+[8.969s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_cpp.so
+[9.086s] Compiling '/home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/__init__.py'...
+[9.111s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_generator_cExport.cmake
+[9.111s] -- Installing: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_generator_cExport-relwithdebinfo.cmake
+[9.112s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport.cmake
+[9.112s] -- Installing: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[9.112s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport.cmake
+[9.113s] -- Installing: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[9.114s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_generator_cppExport.cmake
+[9.114s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport.cmake
+[9.114s] -- Installing: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[9.115s] -- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport.cmake
+[9.116s] -- Installing: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[9.123s] Invoked command in '/home/chen/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chen/ros2_ws/build/cpp_pubsub

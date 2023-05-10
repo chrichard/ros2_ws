@@ -1,0 +1,371 @@
+[0.000000] (-) TimerEvent: {}
+[0.000479] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000636] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000720] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.054021] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.082671] (-) TimerEvent: {}
+[0.105139] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.116805] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.119470] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/ros2_ws/build/cpp_pubsub', '--', '-j2', '-l2'], 'cwd': '/home/chen/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_pubsub'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[0.167176] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.172519] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.175159] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/ros2_ws/build/cpp_srvcli', '--', '-j2', '-l2'], 'cwd': '/home/chen/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_srvcli'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[0.184256] (-) TimerEvent: {}
+[0.285247] (-) TimerEvent: {}
+[0.386211] (-) TimerEvent: {}
+[0.438066] (cpp_pubsub) StdoutLine: {'line': b'[  1%] Built target cpp_pubsub__cpp\n'}
+[0.487335] (-) TimerEvent: {}
+[0.597260] (-) TimerEvent: {}
+[0.597773] (cpp_pubsub) StdoutLine: {'line': b'[ 11%] Built target cpp_pubsub__rosidl_generator_c\n'}
+[0.603463] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.682425] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.698448] (-) TimerEvent: {}
+[0.757933] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[0.801539] (-) TimerEvent: {}
+[0.834538] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[0.902295] (-) TimerEvent: {}
+[0.902964] (cpp_pubsub) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.003083] (-) TimerEvent: {}
+[1.087087] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[1.104002] (-) TimerEvent: {}
+[1.138314] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/ros2_ws/build/cpp_srvcli'], 'cwd': '/home/chen/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_srvcli'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[1.188511] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[1.193659] (cpp_srvcli) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.195411] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[1.195622] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[1.195817] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[1.196027] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[1.196220] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[1.197724] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[1.197867] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[1.197958] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[1.198059] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[1.204708] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[1.205003] (-) TimerEvent: {}
+[1.205321] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[1.205534] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[1.210544] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[1.255127] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[1.258566] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[1.260112] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[1.260235] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[1.271025] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[1.309960] (-) TimerEvent: {}
+[1.414004] (-) TimerEvent: {}
+[1.517419] (-) TimerEvent: {}
+[1.618061] (-) TimerEvent: {}
+[1.727673] (-) TimerEvent: {}
+[1.783477] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[1.827808] (-) TimerEvent: {}
+[1.929354] (-) TimerEvent: {}
+[2.030339] (-) TimerEvent: {}
+[2.131441] (-) TimerEvent: {}
+[2.232895] (-) TimerEvent: {}
+[2.334557] (-) TimerEvent: {}
+[2.436944] (-) TimerEvent: {}
+[2.538168] (-) TimerEvent: {}
+[2.639176] (-) TimerEvent: {}
+[2.740144] (-) TimerEvent: {}
+[2.841130] (-) TimerEvent: {}
+[2.942236] (-) TimerEvent: {}
+[3.042875] (-) TimerEvent: {}
+[3.144769] (-) TimerEvent: {}
+[3.245901] (-) TimerEvent: {}
+[3.346413] (-) TimerEvent: {}
+[3.447005] (-) TimerEvent: {}
+[3.547827] (-) TimerEvent: {}
+[3.648859] (-) TimerEvent: {}
+[3.750223] (-) TimerEvent: {}
+[3.851480] (-) TimerEvent: {}
+[3.953513] (-) TimerEvent: {}
+[4.054317] (-) TimerEvent: {}
+[4.155489] (-) TimerEvent: {}
+[4.256188] (-) TimerEvent: {}
+[4.356799] (-) TimerEvent: {}
+[4.457700] (-) TimerEvent: {}
+[4.560207] (-) TimerEvent: {}
+[4.662493] (-) TimerEvent: {}
+[4.763654] (-) TimerEvent: {}
+[4.865868] (-) TimerEvent: {}
+[4.967588] (-) TimerEvent: {}
+[5.069358] (-) TimerEvent: {}
+[5.170369] (-) TimerEvent: {}
+[5.271629] (-) TimerEvent: {}
+[5.372767] (-) TimerEvent: {}
+[5.474218] (-) TimerEvent: {}
+[5.577205] (-) TimerEvent: {}
+[5.678882] (-) TimerEvent: {}
+[5.781012] (-) TimerEvent: {}
+[5.882221] (-) TimerEvent: {}
+[5.983388] (-) TimerEvent: {}
+[6.084645] (-) TimerEvent: {}
+[6.185279] (-) TimerEvent: {}
+[6.286177] (-) TimerEvent: {}
+[6.387556] (-) TimerEvent: {}
+[6.491060] (-) TimerEvent: {}
+[6.592376] (-) TimerEvent: {}
+[6.694210] (-) TimerEvent: {}
+[6.795716] (-) TimerEvent: {}
+[6.896702] (-) TimerEvent: {}
+[6.997396] (-) TimerEvent: {}
+[7.098686] (-) TimerEvent: {}
+[7.199600] (-) TimerEvent: {}
+[7.301372] (-) TimerEvent: {}
+[7.402352] (-) TimerEvent: {}
+[7.502836] (-) TimerEvent: {}
+[7.603609] (-) TimerEvent: {}
+[7.706072] (-) TimerEvent: {}
+[7.807652] (-) TimerEvent: {}
+[7.909075] (-) TimerEvent: {}
+[8.011009] (-) TimerEvent: {}
+[8.111626] (-) TimerEvent: {}
+[8.212588] (-) TimerEvent: {}
+[8.314484] (-) TimerEvent: {}
+[8.415681] (-) TimerEvent: {}
+[8.516228] (-) TimerEvent: {}
+[8.617294] (-) TimerEvent: {}
+[8.719337] (-) TimerEvent: {}
+[8.820294] (-) TimerEvent: {}
+[8.922403] (-) TimerEvent: {}
+[9.025368] (-) TimerEvent: {}
+[9.127525] (-) TimerEvent: {}
+[9.229475] (-) TimerEvent: {}
+[9.330239] (-) TimerEvent: {}
+[9.431039] (-) TimerEvent: {}
+[9.532294] (-) TimerEvent: {}
+[9.633201] (-) TimerEvent: {}
+[9.733810] (-) TimerEvent: {}
+[9.834496] (-) TimerEvent: {}
+[9.935381] (-) TimerEvent: {}
+[10.036342] (-) TimerEvent: {}
+[10.136880] (-) TimerEvent: {}
+[10.237610] (-) TimerEvent: {}
+[10.338307] (-) TimerEvent: {}
+[10.439429] (-) TimerEvent: {}
+[10.540715] (-) TimerEvent: {}
+[10.642271] (-) TimerEvent: {}
+[10.743985] (-) TimerEvent: {}
+[10.845945] (-) TimerEvent: {}
+[10.947702] (-) TimerEvent: {}
+[11.049272] (-) TimerEvent: {}
+[11.150646] (-) TimerEvent: {}
+[11.254129] (-) TimerEvent: {}
+[11.355126] (-) TimerEvent: {}
+[11.456163] (-) TimerEvent: {}
+[11.558943] (-) TimerEvent: {}
+[11.660320] (-) TimerEvent: {}
+[11.761571] (-) TimerEvent: {}
+[11.862759] (-) TimerEvent: {}
+[11.963444] (-) TimerEvent: {}
+[12.064009] (-) TimerEvent: {}
+[12.164958] (-) TimerEvent: {}
+[12.267539] (-) TimerEvent: {}
+[12.370558] (-) TimerEvent: {}
+[12.472169] (-) TimerEvent: {}
+[12.575106] (-) TimerEvent: {}
+[12.676376] (-) TimerEvent: {}
+[12.780227] (-) TimerEvent: {}
+[12.881997] (-) TimerEvent: {}
+[12.983369] (-) TimerEvent: {}
+[13.086543] (-) TimerEvent: {}
+[13.187256] (-) TimerEvent: {}
+[13.289363] (-) TimerEvent: {}
+[13.390785] (-) TimerEvent: {}
+[13.492085] (-) TimerEvent: {}
+[13.593050] (-) TimerEvent: {}
+[13.694253] (-) TimerEvent: {}
+[13.795487] (-) TimerEvent: {}
+[13.899503] (-) TimerEvent: {}
+[14.000574] (-) TimerEvent: {}
+[14.103959] (-) TimerEvent: {}
+[14.205782] (-) TimerEvent: {}
+[14.307045] (-) TimerEvent: {}
+[14.407779] (-) TimerEvent: {}
+[14.510547] (-) TimerEvent: {}
+[14.613370] (-) TimerEvent: {}
+[14.714764] (-) TimerEvent: {}
+[14.821647] (-) TimerEvent: {}
+[14.925812] (-) TimerEvent: {}
+[15.027337] (-) TimerEvent: {}
+[15.128894] (-) TimerEvent: {}
+[15.229462] (-) TimerEvent: {}
+[15.330777] (-) TimerEvent: {}
+[15.431566] (-) TimerEvent: {}
+[15.532401] (-) TimerEvent: {}
+[15.633500] (-) TimerEvent: {}
+[15.735010] (-) TimerEvent: {}
+[15.836103] (-) TimerEvent: {}
+[15.936895] (-) TimerEvent: {}
+[16.037800] (-) TimerEvent: {}
+[16.145340] (-) TimerEvent: {}
+[16.246456] (-) TimerEvent: {}
+[16.347469] (-) TimerEvent: {}
+[16.450748] (-) TimerEvent: {}
+[16.552332] (-) TimerEvent: {}
+[16.653074] (-) TimerEvent: {}
+[16.753864] (-) TimerEvent: {}
+[16.854700] (-) TimerEvent: {}
+[16.955837] (-) TimerEvent: {}
+[17.056574] (-) TimerEvent: {}
+[17.157213] (-) TimerEvent: {}
+[17.259889] (-) TimerEvent: {}
+[17.296468] (cpp_pubsub) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[17.360748] (-) TimerEvent: {}
+[17.461468] (-) TimerEvent: {}
+[17.562907] (-) TimerEvent: {}
+[17.664105] (-) TimerEvent: {}
+[17.765794] (-) TimerEvent: {}
+[17.799076] (cpp_pubsub) StdoutLine: {'line': b'[ 15%] Built target talker\n'}
+[17.866252] (-) TimerEvent: {}
+[17.926199] (cpp_pubsub) StdoutLine: {'line': b'[ 19%] Built target listener\n'}
+[17.968992] (-) TimerEvent: {}
+[18.031415] (cpp_pubsub) StdoutLine: {'line': b'[ 29%] Built target cpp_pubsub__rosidl_typesupport_cpp\n'}
+[18.073273] (-) TimerEvent: {}
+[18.171036] (cpp_pubsub) StdoutLine: {'line': b'[ 39%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp\n'}
+[18.172789] (-) TimerEvent: {}
+[18.275706] (-) TimerEvent: {}
+[18.277188] (cpp_pubsub) StdoutLine: {'line': b'[ 49%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp\n'}
+[18.382125] (-) TimerEvent: {}
+[18.397451] (cpp_pubsub) StdoutLine: {'line': b'[ 58%] Built target cpp_pubsub__rosidl_typesupport_introspection_c\n'}
+[18.482388] (-) TimerEvent: {}
+[18.507158] (cpp_pubsub) StdoutLine: {'line': b'[ 68%] Built target cpp_pubsub__rosidl_typesupport_c\n'}
+[18.582777] (-) TimerEvent: {}
+[18.617054] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c\n'}
+[18.685013] (-) TimerEvent: {}
+[18.696232] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] Built target cpp_pubsub\n'}
+[18.758790] (cpp_pubsub) StdoutLine: {'line': b'[ 80%] Built target cpp_pubsub__py\n'}
+[18.785775] (-) TimerEvent: {}
+[18.889171] (-) TimerEvent: {}
+[18.902118] (cpp_pubsub) StdoutLine: {'line': b'[ 88%] Built target cpp_pubsub__python\n'}
+[18.989471] (-) TimerEvent: {}
+[19.017362] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] Built target cpp_pubsub__rosidl_typesupport_introspection_c__pyext\n'}
+[19.096727] (-) TimerEvent: {}
+[19.123111] (cpp_pubsub) StdoutLine: {'line': b'[ 96%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.197555] (-) TimerEvent: {}
+[19.221028] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target cpp_pubsub__rosidl_typesupport_c__pyext\n'}
+[19.273867] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[19.297964] (-) TimerEvent: {}
+[19.399738] (-) TimerEvent: {}
+[19.503545] (-) TimerEvent: {}
+[19.607865] (-) TimerEvent: {}
+[19.662258] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[19.666760] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/chen/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/chen'), ('VSCODE_CRASH_REPORTER_SANDBOXED_HINT', '1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'chen'), ('SNAP_COMMON', '/var/snap/code/common'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_translationsConfigFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/tcf.json","_cacheRoot":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn","_resolvedLanguagePackCoreLocation":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/252e5463d60e63238250799aef7375787f68b4ee","_corruptedFile":"/home/chen/.config/Code/clp/e8139c6a810edc38ce118d65c4ecc4ca.zh-cn/corrupted.info","_languagePackSupport":true}'), ('GIO_MODULE_DIR', '/home/chen/snap/code/common/.cache/gio-modules'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('TERM_PROGRAM_VERSION', '1.78.0'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/chen/snap/code/127'), ('GTK_PATH', '/snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9eb2e185-1.78-main.sock'), ('GTK_IM_MODULE_FILE', '/home/chen/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/127/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/127/usr/share/code/code'), ('MANAGERPID', '984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '127'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3988'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('SNAP_CONTEXT', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('JOURNAL_STREAM', '8:48777'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('SNAP_VERSION', '252e5463'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'code'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1661,unix/ubuntu:/tmp/.ICE-unix/1661'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('GTK_EXE_PREFIX', '/snap/code/127/usr'), ('INVOCATION_ID', '6f8a6e31496c4cc3b875e8e414f8c7b2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('SNAP_DATA', '/var/snap/code/127'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/127/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c2d6e3f140.sock'), ('TERM_PROGRAM', 'vscode'), ('SNAP_USER_COMMON', '/home/chen/snap/code/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chen/snap/code/127/.local/share/glib-2.0/schemas'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SNAP_COOKIE', 'OgBwCAaQaxEDKAh8OHfl0NLbdB4suEWKTOrgMZFuLfLcTjT37Pas'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULEDIR', '/snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'code'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GDK_PIXBUF_MODULE_FILE', '/home/chen/snap/code/common/.cache/gdk-pixbuf-loaders.cache'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('SNAP_LAUNCHER_ARCH_TRIPLET', 'x86_64-linux-gnu'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/ros2_ws/build/cpp_pubsub'), ('VSCODE_CLI', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/chen'), ('VSCODE_CODE_CACHE_PATH', '/home/chen/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee'), ('XDG_DATA_DIRS', '/home/chen/snap/code/127/.local/share:/home/chen/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/code/127'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/chen/ros2_ws/install/cpp_srvcli:/home/chen/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('VSCODE_PID', '4033')]), 'shell': False}
+[19.708791] (-) TimerEvent: {}
+[19.711981] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[19.714077] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.718595] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/rosidl_interfaces/cpp_pubsub\n'}
+[19.722262] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__functions.h\n'}
+[19.722913] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__struct.h\n'}
+[19.723417] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__type_support.h\n'}
+[19.723954] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__functions.h\n'}
+[19.724428] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__struct.h\n'}
+[19.724974] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__type_support.h\n'}
+[19.725431] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/num.h\n'}
+[19.726187] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.726724] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/sphere.h\n'}
+[19.727731] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/add_three_ints.h\n'}
+[19.730213] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__functions.h\n'}
+[19.730993] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__struct.h\n'}
+[19.731690] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__type_support.h\n'}
+[19.732585] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh\n'}
+[19.733275] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv\n'}
+[19.739576] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[19.742194] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[19.742792] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.743498] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[19.744524] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_c.so\n'}
+[19.747582] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.748359] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.748986] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.750543] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.751522] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.752713] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[19.753275] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[19.753784] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.754352] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[19.758169] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__builder.hpp\n'}
+[19.760304] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__struct.hpp\n'}
+[19.763668] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__traits.hpp\n'}
+[19.764960] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__builder.hpp\n'}
+[19.766552] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__struct.hpp\n'}
+[19.767360] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__traits.hpp\n'}
+[19.768062] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/num.hpp\n'}
+[19.768713] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/sphere.hpp\n'}
+[19.769409] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/add_three_ints.hpp\n'}
+[19.770148] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__builder.hpp\n'}
+[19.775125] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__struct.hpp\n'}
+[19.780181] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__traits.hpp\n'}
+[19.782795] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.783713] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.785517] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.788245] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.sh\n'}
+[19.790001] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.dsv\n'}
+[19.790873] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/__init__.py\n'}
+[19.792833] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/msg/__init__.py\n'}
+[19.795375] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/msg/_num.py\n'}
+[19.803988] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/msg/_sphere.py\n'}
+[19.806838] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/srv/__init__.py\n'}
+[19.807654] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/srv/_add_three_ints.py\n'}
+[19.808494] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.809304] (-) TimerEvent: {}
+[19.809698] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.810600] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.811412] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__python.so\n'}
+[19.812146] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Num.idl\n'}
+[19.812814] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Sphere.idl\n'}
+[19.813438] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts.idl\n'}
+[19.814271] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Num.msg\n'}
+[19.815075] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Sphere.msg\n'}
+[19.815908] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts.srv\n'}
+[19.816705] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts_Request.msg\n'}
+[19.817505] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/srv/AddThreeInts_Response.msg\n'}
+[19.818667] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[19.819295] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[19.819905] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[19.823635] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[19.832328] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[19.835360] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[19.839959] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[19.841349] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[19.843751] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[19.846569] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[19.847951] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[19.849409] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[19.850526] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[19.874724] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[19.876324] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake-extras.cmake\n'}
+[19.879407] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.880667] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.882482] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.884903] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.885685] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.886338] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.887037] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[19.887651] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[19.888327] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[19.889058] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_c.so\n'}
+[19.894438] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_c.so\n'}
+[19.895728] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_c.so\n'}
+[19.896687] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_cpp.so\n'}
+[19.897561] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_cpp.so\n'}
+[19.909545] (-) TimerEvent: {}
+[20.000837] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_generator_cExport.cmake\n'}
+[20.002018] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_generator_cExport-relwithdebinfo.cmake\n'}
+[20.002265] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.002900] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake\n'}
+[20.003422] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport.cmake\n'}
+[20.004001] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport-relwithdebinfo.cmake\n'}
+[20.004583] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_generator_cppExport.cmake\n'}
+[20.005044] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.005703] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake\n'}
+[20.013144] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport.cmake\n'}
+[20.013561] (-) TimerEvent: {}
+[20.014610] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/chen/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport-relwithdebinfo.cmake\n'}
+[20.030206] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[20.113977] (-) TimerEvent: {}
+[20.218808] (-) TimerEvent: {}
+[20.322531] (-) TimerEvent: {}
+[20.424813] (-) TimerEvent: {}
+[20.526817] (-) TimerEvent: {}
+[20.541786] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[20.544394] (-) EventReactorShutdown: {}

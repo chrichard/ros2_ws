@@ -1,0 +1,51 @@
+[0.081s] Invoking command in '/home/chen/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/chen/ros2_ws/src/cpp_srvcli -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ros2_ws/install/cpp_srvcli
+[0.179s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.316s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.284s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.343s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.502s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.084s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.364s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.364s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.138s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[3.757s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.155s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.165s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.166s] -- Configured cppcheck include dirs: 
+[4.172s] -- Configured cppcheck exclude dirs and/or files: 
+[4.188s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.188s] -- Configured cpplint exclude dirs and/or files: 
+[4.189s] -- Added test 'lint_cmake' to check CMake code style
+[4.199s] -- Added test 'uncrustify' to check C / C++ code style
+[4.199s] -- Configured uncrustify additional arguments: 
+[4.200s] -- Added test 'xmllint' to check XML markup files
+[4.221s] -- Configuring done
+[4.301s] -- Generating done
+[4.319s] -- Build files have been written to: /home/chen/ros2_ws/build/cpp_srvcli
+[4.364s] Invoked command in '/home/chen/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/chen/ros2_ws/src/cpp_srvcli -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ros2_ws/install/cpp_srvcli
+[4.365s] Invoking command in '/home/chen/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[4.797s] [ 50%] Built target client
+[4.804s] [100%] Built target server
+[4.857s] Invoked command in '/home/chen/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chen/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[5.180s] Invoking command in '/home/chen/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chen/ros2_ws/build/cpp_srvcli
+[5.240s] -- Install configuration: "RelWithDebInfo"
+[5.247s] -- Execute custom install script
+[5.248s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.249s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[5.249s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.253s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.258s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.263s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.265s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.266s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.267s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.268s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.271s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.272s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.273s] -- Symlinking: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.329s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.331s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.332s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.333s] -- Up-to-date symlink: /home/chen/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.342s] Invoked command in '/home/chen/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chen/ros2_ws/build/cpp_srvcli

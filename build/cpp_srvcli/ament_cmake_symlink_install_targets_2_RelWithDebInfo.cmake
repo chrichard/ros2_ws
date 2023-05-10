@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chen/ros2_ws/build/cpp_srvcli/rosidl_generator_py/cpp_srvcli/cpp_srvcli_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "cpp_srvcli__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/cpp_srvcli")

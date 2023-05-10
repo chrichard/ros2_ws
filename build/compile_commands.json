@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/chen/ros2_ws/build",
+  "command": "/usr/bin/g++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/client.dir/src/add_two_ints_client.cpp.o -c /home/chen/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp",
+  "file": "/home/chen/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp"
+},
+{
+  "directory": "/home/chen/ros2_ws/build",
+  "command": "/usr/bin/g++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/server.dir/src/add_two_ints_server.cpp.o -c /home/chen/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp",
+  "file": "/home/chen/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp"
+}
+]

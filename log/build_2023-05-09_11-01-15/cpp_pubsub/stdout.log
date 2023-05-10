@@ -1,0 +1,10 @@
+[  1%] Built target cpp_pubsub__cpp
+[ 11%] Built target cpp_pubsub__rosidl_generator_c
+[35m[1mScanning dependencies of target talker[0m
+[ 15%] Built target listener
+[ 17%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 27%] Built target cpp_pubsub__rosidl_typesupport_cpp
+[ 37%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp
+[ 47%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp
+[ 56%] Built target cpp_pubsub__rosidl_typesupport_introspection_c
+[ 66%] Built target cpp_pubsub__rosidl_typesupport_c
