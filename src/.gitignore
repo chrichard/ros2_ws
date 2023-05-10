@@ -32,6 +32,6 @@
 *.app
 
 #directory
-build/
-install/
-log/
+/build
+/install
+/log
